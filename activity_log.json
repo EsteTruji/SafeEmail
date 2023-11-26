@@ -190,3 +190,27 @@
     "second_key": "avendanoesteban12",
     "state": "success"
 }
+{
+    "activity": "ENCRYPTOR",
+    "ip": "127.0.1.1",
+    "computer_name": "adrephos",
+    "timestamp": "2023-11-26 17:06:22",
+    "key": "89b85ef314eb298fa3ff2c93325717ef",
+    "second_key": "avendanoesteban12"
+}
+{
+    "activity": "DECRYPTION",
+    "ip": "127.0.1.1",
+    "user_email": "avendanoesteban12@gmail.com",
+    "timestamp": "2023-11-26 17:06:59",
+    "second_key": "avendanoesteban12",
+    "state": "success"
+}
+{
+    "activity": "ENCRYPTOR",
+    "ip": "127.0.1.1",
+    "computer_name": "adrephos",
+    "timestamp": "2023-11-26 17:07:20",
+    "key": "201c43ccfb93ee69f221d084a4ac8c5e",
+    "second_key": "avendanoesteban12"
+}

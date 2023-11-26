@@ -1,4 +1,3 @@
-import os
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 import json
@@ -35,8 +34,6 @@ class FileEncryptor:
             file.write(b2key)
 
         self.log_activity()
-        cipher = AES.new(self.key, AES.MODE_EAX, nonce=cipher.nonce)
-        plaintext = cipher.decrypt_and_verify(ciphertext, tag)
         return self.output_filename
 
     def log_activity(self):
@@ -61,9 +58,6 @@ class FileEncryptor:
 
 
 if __name__ == "__main__":
-
-    import sys
-
     if len(sys.argv) != 3:
         print(
             "\033[0;31mUso: py encryption.py <archivo_a_encriptar> <segunda_llave>\033[0m")
