@@ -1,5 +1,12 @@
 # Documentación SafeEmail
 
+## Integrantes:
+- Esteban Trujillo Carmona
+- Juan Esteban Avendaño
+- Viviana Hoyos Sierra
+- julian Romero Hinestroza
+- Damián Duque López
+
 ## SetUp:
 Para poder utilizar SafeEmail correctamente será necesario que el usuario genere una contraseña especial para su cuenta de Google, la cual será utilizada por SafeEmail al momento de acceder a su correo electrónico.
 Este proceso es completamente seguro y se explicara a continuación:
