@@ -28,7 +28,7 @@ Los 2 principales servicios que ofrece SafeEmail son: El envió de archivos y do
 
 Para realizar un envió de algún archivo encriptado el usuario deberá ejecutar el código respetando el siguiente formato:
 ```python
-python main.py decrypt <received_file> <key> <my_mail> <second_key> <auth_key>
+python main.py send <received_file> <key> <my_mail> <second_key> <auth_key>
 # Comando de ejemplo:
 python main.py send test.txt damianduquel@gmail.com damianduquel2@gmail.com nrvs rzju rmnh mozw
 ```
